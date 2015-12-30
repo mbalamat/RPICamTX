@@ -1,0 +1,1 @@
+raspivid -o rpi2video.h264 -t 25000
