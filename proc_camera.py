@@ -11,7 +11,7 @@ try:
 		if (stick == 0):
 			time.sleep(0.5)
 			print "Capturing a proto...";
-			p = subprocess.Popen('./icap')
+			p = subprocess.Popen('/home/pi/RPICamTX/icap')
 			p.wait()
 		else:
 			time.sleep(0.5)
